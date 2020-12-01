@@ -10,6 +10,7 @@ const MenuListItem = ({menuItem}) => {
                 <div className="menu__category">Category: <span>{category}</span></div>
                 <div className="menu__price">Price: <span>{price}$</span></div>
                 <button className="menu__btn">Add to cart</button>
+                <span className = {`menu__category_Img ${category}`}></span>
             </li>
     )
 }
