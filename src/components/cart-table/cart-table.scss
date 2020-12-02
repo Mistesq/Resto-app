@@ -9,7 +9,8 @@
         font-weight: 300;
     }
     &__list {
-        width: 60%;
+        max-width: 1000px;
+        padding: 0 25px;
         margin: 0 auto;
     }
     &__item {
@@ -22,7 +23,8 @@
         background-color: rgba(0,0,0,.7);
         box-shadow: 0 0 20px rgba(256,256,256, .1);
         &-title, &-price  {
-            width: 250px;
+            max-width: 250px;
+            width: 100%;
             text-align: center;
             color: #fff;
             font-size: 24px;
